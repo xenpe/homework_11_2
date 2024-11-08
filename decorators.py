@@ -29,11 +29,7 @@ def log(filename: Optional[str] = None) -> Callable:
         return wrapper
     return decorator
 
-# Пример использования:
-# @log(filename="mylog.txt")
-# def my_function(x, y):
-#     return x + y
-"""
+       """
     Декоратор для логирования информации о выполнении функции.
 
     Записывает в лог информацию о вызове функции, включая её имя, аргументы, результат или ошибку, если она возникла.
